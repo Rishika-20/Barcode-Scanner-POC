@@ -36,7 +36,7 @@ The QR and Barcode Scanner Android App is a mobile application developed to scan
 
 5. Build and run the app on an Android device or emulator.
 
-6. Open the app and grant necessary permissions to access the device's camera.
+6. Open the app and grant the necessary permissions to access the device's camera.
 
 7. Scan QR codes and barcodes by pointing the camera at them.
 
