@@ -29,6 +29,7 @@ The app uses the following dependencies:
   implementation "com.google.android.gms:play-services-vision:20.1.3"
 
 - Firebase Realtime Database:
+  ``` Firebase-connectivity
    implementation "com.google.firebase:firebase-database-ktx:20.2.2"
 
 
