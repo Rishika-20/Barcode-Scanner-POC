@@ -1,9 +1,9 @@
-# Barcode-Scanner-POC
-# QR and Barcode Scanner Android App
+# QR and Barcode Scanner Android Application
 
 ## Description
 
-The QR and Barcode Scanner Android App is a mobile application developed to scan QR codes and barcodes using the device's camera. The scanned data is then stored in a Firebase Realtime Database, allowing users to keep track of items and their associated details.
+The Android app, for QR and Barcode scanning is a tool that makes it easy to scan QR codes and barcodes using the camera on your device. This amazing app quickly captures types of codes. Converts them into useful information. It also seamlessly connects with a Firebase Real time Database allowing users to effortlessly store and organize their data. This creates a system, for keeping track of items and their relevant details. Whether you're using it personally or for an organization this app provides a solution to improve the tracking and accessibility of data.
+
 
 ## Features
 
@@ -19,6 +19,18 @@ The QR and Barcode Scanner Android App is a mobile application developed to scan
 - Kotlin: The programming language used for developing the app.
 - Firebase Realtime Database: Used to store and manage scanned data.
 - Google Mobile Vision API: Enables barcode scanning using the device's camera.
+
+## Dependencies
+
+The app uses the following dependencies:
+
+- Google Mobile Vision API:
+  ```gradle-Kotlin
+  implementation "com.google.android.gms:play-services-vision:20.1.3"
+
+- Firebase Realtime Database:
+   implementation "com.google.firebase:firebase-database-ktx:20.2.2"
+
 
 ## How to Use
 
@@ -38,7 +50,6 @@ The QR and Barcode Scanner Android App is a mobile application developed to scan
 
 6. Add the following permissions to the `AndroidManifest.xml` file:
 
-   ```XML
    <uses-permission android:name="android.permission.CAMERA" />
    <uses-feature android:name="android.hardware.camera.autofocus" />
 
