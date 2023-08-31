@@ -34,9 +34,13 @@ The QR and Barcode Scanner Android App is a mobile application developed to scan
    - Locate the `google-services.json` file provided by Firebase.
    - Place the `google-services.json` file in the `app` directory of your project.
 
-5. Build and run the app on an Android device or emulator.
+5. Open the `AndroidManifest.xml` file located in the `app/src/main` directory.
 
-6. Open the app and grant the necessary permissions to access the device's camera.
+6. Add the following permissions to the `AndroidManifest.xml` file:
+
+   ```XML
+   <uses-permission android:name="android.permission.CAMERA" />
+   <uses-feature android:name="android.hardware.camera.autofocus" />
 
 7. Scan QR codes and barcodes by pointing the camera at them.
 
